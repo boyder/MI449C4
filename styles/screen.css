@@ -1,50 +1,112 @@
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
-    text-align: center;
+    background: rgb(230, 235, 224);
+    color: rgb(63, 63, 63);
+    font-family: Inter;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
-}
-
-nav ul {
+.NameCard {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
+    height: 200px;
+    width: 630px;
+    padding-bottom: 36px;
+    padding-top: 53px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-nav ul li {
-    list-style-type: none;
-    margin: 0;
+img {
+    flex: left;
+    padding-right: 29px;
 }
 
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
+.NameBio {
+    flex: right;
 }
 
 h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-decoration-line: underline;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.bio {
+    margin: 0;
 }
 
-img.about {
-    opacity: 0.5;
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+hr {
+    width: 428px;
+    height: 3px;
+    background-color: rgb(237, 106, 90);
+    border: 0;
+    margin-bottom: 45px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postHolder {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 111px;
+}
+
+.postBox {
+    background: linear-gradient(230.71deg, rgb(155, 193, 188) 13.846%, rgb(92, 164, 169) 88.345%);
+    width: 584px;
+    height: 254px;
+    display: grid;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 43px;
+    background: rgb(244, 241, 187);
+    border: 0;
+    width: 158px;
+    height: 35px;
+}
+
+.postText {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(63, 63, 63);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+}
+
+h3{
+font-size: 15px;
+font-weight: 400;
+line-height: 3px;
+text-align: right;
+margin-bottom: 13px;
+}
+
+.DateTime{
+    padding-right: 11px;
+    align-self: flex-end;
 }

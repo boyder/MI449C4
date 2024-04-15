@@ -1,7 +1,21 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Social Profile
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<div class="NameCard">
+    <img src="/images/ProfilePic.png" alt="profile picture" width="199">
+    <div class="NameBio">
+        <h1>Luna Skye</h1>
+        <h2 class="bio">Exploring the cosmos one dream at a time. Lover of art, literature, and stargazing. Let's journey through
+            the universe together.</h2>
+    </div>
+</div>
+<hr>
+
+<div class="posts">
+    {% postBox "Just finished reading The Alchemist by Paulo Coelho and feeling inspired to chase my dreams even harder!", "April 14, 2024", "8:30 PM" %}
+    {% postBox "Nothing beats a cozy night in with a cup of hot chocolate and a good movie. Any recommendations?", "April 12, 2024", "9:15 PM" %}
+    {% postBox "Look a spontaneous road trip to the countryside and stumbled upon this breathtaking view. Nature truly is the greatest artist. ", "March 29, 2024", "11:45 AM" %}
+    {% postBox "Tonight's agenda: a date with the stars. Who's joining me for some late-night stargazing?", "April 7, 2024", "10:00 PM" %}
+</div>
